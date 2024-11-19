@@ -1,25 +1,34 @@
-import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
-
+import { ExternalLink, Github } from "lucide-react";
+import modernMart from "../assets/ModernMart-login.png";
+import meetSphere from "../assets/MeetSphere.png"
+import youtube from "../assets/youtube.png"
+ 
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      tags: ['React', 'Node.js', 'MongoDB', 'Redux'],
+      title: "ModernMart",
+      description:
+        "Full-stack e-commerce solution with React, Node.js, and MongoDB",
+      image: modernMart,
+      tags: ["React", "Node.js", "MongoDB", "Redux"],
+      github: "https://github.com/himan07/ModernMart.git",
+      demo: "https://github.com/himan07/ModernMart.git", 
     },
     {
-      title: 'Task Management App',
-      description: 'Real-time task management application with React Native',
-      image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      tags: ['React Native', 'Firebase', 'Redux'],
+      title: "MeetSphere – A virtual space for gatherings",
+      description: "High-performance video conferencing app with real-time chat, optimized streaming, and scalable architecture for seamless user experience.",
+      image:meetSphere,
+      tags: ["Next.js", "Tailwind CSS", "Clerk.js", "Stream API"],
+      github: "https://github.com/yourusername/task-management-app",
+      demo: "https://unite-meet.vercel.app/", 
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'Data visualization dashboard using Next.js and D3.js',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      tags: ['Next.js', 'D3.js', 'TypeScript'],
+      title: "youtube Clone",
+      description: "YouTube clone application with video streaming, user authentication, and responsive UI built using React.js, Node.js, and MongoDB.",
+      image:youtube,
+      tags: ["React.js", "Tailwind CSS"],
+      github: "https://github.com/yourusername/analytics-dashboard",
+      demo: "https://youtube-clone-app-zeta.vercel.app/", 
     },
   ];
 
@@ -48,7 +57,9 @@ export default function Projects() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-slate-600 dark:text-slate-400 mb-4">{project.description}</p>
+                <p className="text-slate-600 dark:text-slate-400 mb-4">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
@@ -61,14 +72,18 @@ export default function Projects() {
                 </div>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
                   >
                     <Github size={20} />
                     <span>Code</span>
                   </a>
                   <a
-                    href="#"
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
                   >
                     <ExternalLink size={20} />
