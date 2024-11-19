@@ -1,8 +1,8 @@
 import { ExternalLink, Github } from "lucide-react";
 import modernMart from "../assets/ModernMart-login.png";
-import meetSphere from "../assets/MeetSphere.png"
-import youtube from "../assets/youtube.png"
- 
+import meetSphere from "../assets/MeetSphere.png";
+import youtube from "../assets/youtube.png";
+
 export default function Projects() {
   const projects = [
     {
@@ -12,23 +12,25 @@ export default function Projects() {
       image: modernMart,
       tags: ["React", "Node.js", "MongoDB", "Redux"],
       github: "https://github.com/himan07/ModernMart.git",
-      demo: "https://github.com/himan07/ModernMart.git", 
+      demo: "https://github.com/himan07/ModernMart.git",
     },
     {
       title: "MeetSphere – A virtual space for gatherings",
-      description: "High-performance video conferencing app with real-time chat, optimized streaming, and scalable architecture for seamless user experience.",
-      image:meetSphere,
+      description:
+        "High-performance video conferencing app with real-time chat, optimized streaming, and scalable architecture for seamless user experience.",
+      image: meetSphere,
       tags: ["Next.js", "Tailwind CSS", "Clerk.js", "Stream API"],
       github: "https://github.com/yourusername/task-management-app",
-      demo: "https://unite-meet.vercel.app/", 
+      demo: "https://unite-meet.vercel.app/",
     },
     {
       title: "youtube Clone",
-      description: "YouTube clone application with video streaming, user authentication, and responsive UI built using React.js, Node.js, and MongoDB.",
-      image:youtube,
+      description:
+        "YouTube clone application with video streaming, user authentication, and responsive UI built using React.js, Node.js, and MongoDB.",
+      image: youtube,
       tags: ["React.js", "Tailwind CSS"],
       github: "https://github.com/yourusername/analytics-dashboard",
-      demo: "https://youtube-clone-app-zeta.vercel.app/", 
+      demo: "https://youtube-clone-app-zeta.vercel.app/",
     },
   ];
 
@@ -38,7 +40,9 @@ export default function Projects() {
         <div className="max-w-2xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
           <p className="text-slate-600 dark:text-slate-400">
-            Showcase of my latest work and side projects
+            Explore a selection of my latest projects and side ventures,
+            showcasing innovative solutions, technical expertise, and creative
+            problem-solving.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
