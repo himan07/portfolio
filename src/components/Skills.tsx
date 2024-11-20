@@ -1,23 +1,38 @@
-import React from 'react';
-import { Code2, Database, Terminal, Wrench } from 'lucide-react';
+import React from "react";
+import { Code2, Database, Terminal, Wrench } from "lucide-react";
 
 export default function Skills() {
   const skills = {
     Languages: {
       icon: <Code2 className="w-6 h-6" />,
-      items: ['JavaScript', 'TypeScript', 'HTML5/CSS'],
+      items: ["JavaScript", "TypeScript", "HTML5/CSS"],
     },
     Frameworks: {
       icon: <Terminal className="w-6 h-6" />,
-      items: ['React', 'Next.js', 'React Native', 'Redux', 'Node', 'Express.js'],
+      items: [
+        "React",
+        "Next.js",
+        "React Native",
+        "Redux",
+        "Node",
+        "Express.js",
+      ],
     },
     Testing: {
       icon: <Wrench className="w-6 h-6" />,
-      items: ['Jest', 'Cypress.io', 'Jasmine', 'JUnit'],
+      items: ["Jest", "Cypress.io", "Jasmine", "JUnit"],
     },
-    'Tools & Databases': {
+    "Tools & Databases": {
       icon: <Database className="w-6 h-6" />,
-      items: ['Git', 'VS Code', 'Webpack', 'Babel', 'Material-UI', 'AWS', 'MongoDB'],
+      items: [
+        "Git",
+        "VS Code",
+        "Webpack",
+        "Babel",
+        "Material-UI",
+        "AWS",
+        "MongoDB",
+      ],
     },
   };
 
@@ -27,7 +42,17 @@ export default function Skills() {
         <div className="max-w-2xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Technical Skills</h2>
           <p className="text-slate-600 dark:text-slate-400">
-            A comprehensive list of my technical skills and expertise
+            I possess extensive expertise in designing and developing scalable,
+            high-performance web applications, leveraging modern frontend and
+            backend technologies. My experience spans building intuitive user
+            interfaces, optimizing application performance, and implementing
+            secure, efficient backend systems. I excel at integrating
+            cloud-based solutions, managing large-scale data, and enhancing
+            application workflows to deliver seamless user experiences. With a
+            strong foundation in testing, version control, and software
+            engineering best practices, I am adept at driving innovation,
+            ensuring code quality, and contributing to the success of complex,
+            collaborative projects.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
