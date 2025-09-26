@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  costacloud,
+  mx,
+  Vrishkar
 } from "../assets";
 
 export const navLinks = [
@@ -42,22 +41,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile App Developer",
     icon: mobile,
+  },
+  {
+    title: "Frontend Developer",
+    icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
+
 
 const technologies = [
   {
@@ -116,57 +116,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Market Xcel Data Matrix",
+    icon: mx,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the end-to-end development of two enterprise-grade Healthcare B2B/B2C panels using React, Node.js, and MySQL, replaced outsourcing by building an in-house scalable architecture.",
+      "Engineered secure role-based access control (RBAC) systems with encryption to safeguard sensitive business data and ensure compliance with security best practices.",
+      "Designed and integrated RESTful APIs, implemented CI/CD pipelines for automated deployment, and optimized full-stack performance for high-traffic production environments.",
+      "Migrated legacy systems to modern React (Hooks, Context API), reducing technical debt and cutting outsourcing dependency by 80%, significantly improving delivery speed and code maintainability.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer",
+    company_name: "Costacloud",
+    icon: costacloud,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "April 2022 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered core features for the Defence eOffice, including secure document routing, role-based workflowmanagement, and detailed audit logging to support secure and efficient internal operations.",
+      "Built Claros, a production-ready real-time suspect-tracking platform integrating geolocation services, relational search algorithms, and biometric data parsing, enabling law enforcement teams to efficiently track, analyze, and correlate suspects across multiple data sources.",
+      "Independently architected and led TeamSync, a secure collaboration platform with encrypted document access and detailed sharing (viewer/commenter/editor) for internal teams.",
+      "Implemented PDF/DOCX in-browser viewers and multi-role audit-ready workflows across departments.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Engineer",
+    company_name: "Vrishkar Consultancy Pvt Ltd.",
+    icon: Vrishkar,
+    iconBg: "#383E56",
+    date: "November 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered a Cleaning Service application for Vrishkar Consultancy Services using JavaScript, React, Redux.",
+      "Converted 30+ Figma designs into responsive web pages, ensuring compatibility across various screen sizes.",
+      "Integrated AWS S3 for database management, handling the upload of 500+ necessary documents securely.",
+      "Added a secure payment section, enabling users to pay via UPI/PAYPAL payment methods.",
     ],
-  },
+  }
 ];
 
 const testimonials = [
