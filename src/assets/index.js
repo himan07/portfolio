@@ -29,8 +29,7 @@ import Vrishkar from "./company/Vrishkar.png";
 import carrent from "./carrent.png";
 import youtube from "./youtube.png";
 import meet from "./meet.png";
-import Modernmart from "./Modernmart.png";
-
+import Modernmart from "./ModernMart.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
