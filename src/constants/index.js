@@ -15,13 +15,14 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   costacloud,
   mx,
-  Vrishkar
+  Vrishkar,
+  youtube,
+  meet,
+  Modernmart
 } from "../assets";
 
 export const navLinks = [
@@ -185,67 +186,63 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "YouTube",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based video streaming platform that enables users to explore, watch, and manage a wide range of videos across multiple categories. The application provides features like search, recommendations, and personalized content, delivering a seamless and engaging viewing experience for users.",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Material Ui",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: youtube,
+    source_code_link: "https://youtube-clone-app-zeta.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "MeetSphere",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built a scalable video conferencing platform with Next.js, featuring instant and scheduled meetings, personal rooms, meeting recordings, and management of upcoming and past sessions—supporting 100+ participants with low-latency streaming and real-time chat.",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: meet,
+    source_code_link: "https://unite-meet.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Modernmart",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a full-featured e-commerce platform with secure user authentication, interactive product catalog, dynamic shopping cart, and a validated payment gateway for a seamless shopping experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node/Express",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Modernmart,
+    source_code_link: "https://github.com/himan07/Modernmart.git",
   },
 ];
 
